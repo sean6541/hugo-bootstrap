@@ -1,0 +1,9 @@
+<nav class="navbar navbar-expand-lg">
+  <a class="navbar-brand" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navCollapsableContent"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="navCollapsableContent">
+    <ul class="navbar-nav mr-auto">
+      {{ partial "nav_main_menu.html" . }}
+    </ul>
+  </div>
+</nav>
