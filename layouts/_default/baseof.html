@@ -17,10 +17,6 @@
 </head>
 <body>
   {{ block "navigation" . }}{{ partial "navigation.html" . }}{{ end }}
-  {{ block "main" . }}
-    <div style="padding: 2rem;">
-      {{ .Content }}
-    </div>
-  {{ end }}
+  {{ block "main" . }}{{ end }}
 </body>
 </html>
